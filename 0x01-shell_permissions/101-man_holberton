@@ -1,1 +1,1 @@
-cat < /dev/tcp/towel.blinkenlights.nl/23
+telnet towel.blinkenlights.nl
