@@ -1,2 +1,2 @@
-file Holberton
-0 string Holberton 
+file -C -m holberton.mgc
+file -m holberton.mgc
