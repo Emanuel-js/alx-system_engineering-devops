@@ -1,3 +1,2 @@
-#!/bin/bash
 magic — file holberton.mgc
 file -C -m holberton.mgc
