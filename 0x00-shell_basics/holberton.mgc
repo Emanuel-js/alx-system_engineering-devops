@@ -1,3 +1,2 @@
-file --mime-type -m holberton.mgc *
-file -m holberton.mgc *
-Holberton data
+0        string    HOLBERTON       Holberton data
+!:mine   Holberton 
