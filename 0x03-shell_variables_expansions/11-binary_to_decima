@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ${D2B[7$BINARY]}
+echo $((2#$BINARY))
