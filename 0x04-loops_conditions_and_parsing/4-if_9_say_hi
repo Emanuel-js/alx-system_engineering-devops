@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times, but 9th ieration display"hi"
+n=1
+while [ $n -le 10 ]
+do
+    echo "Holberton School"
+    if [ $n -eq 9 ]
+    then
+	echo "Hi"
+    fi
+    ((n++))
+done
