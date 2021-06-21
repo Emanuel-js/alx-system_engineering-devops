@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Holberton School" 10 times, but 9th ieration display"hi"
+# This script is displaying "Holberton School" 10 times, but 9th ieration
 n=1
 while [ $n -le 10 ]
 do
