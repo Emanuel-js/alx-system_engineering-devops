@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# login with file and passphrase
+ssh-keygen -N betty -f holberton -b 4096
