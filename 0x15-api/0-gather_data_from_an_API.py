@@ -1,4 +1,4 @@
-	#!/usr/bin/python3
+#!/usr/bin/python3
 '''
 gathers information about an employee by ID and returns their TODO progress
 '''
