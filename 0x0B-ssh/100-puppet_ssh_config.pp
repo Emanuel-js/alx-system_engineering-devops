@@ -1,12 +1,13 @@
-# Sets up your client SSH configuration file to use a private key
-include stdlib
+# Check for file lines in ssh_config
 
-file_line { 'USE private key':
-  path  =>  '/etc/ssh/ssh_config',
-  line  =>  'IdentityFile ~/.ssh/holberton',
+file_line { 'Turn off passwd auth':
+  ensure => present,
+  path   => '/etc/ssh/ssh_config',
+  line   => 'PasswordAuthentication no',
 }
 
-file_line { 'TURN OFF Password Auth':
-  path  =>  '/etc/ssh/ssh_config',
-  line  =>  'PasswordAuthentication no',
+file_line { 'Declare identity file':
+  ensure => present,
+  path   => '/etc/ssh/ssh_config',
+  line   => 'IdentityFile ~/.ssh/holberton',
 }
