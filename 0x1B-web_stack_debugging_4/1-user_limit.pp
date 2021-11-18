@@ -1,4 +1,4 @@
-	# Set broader user limits
+# Set broader user limits
 
 exec { 'ULIMIT Soft':
     path    => '/usr/bin',
