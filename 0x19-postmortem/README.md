@@ -13,7 +13,7 @@ From May 19 12:30 p.m to May 21 9:30 p.m Requests to the website responded with 
 * 2:10 p.m : The support engineer receive the ticket and start to attend the issue
 * 2:30 a.m: Check http requests. Why a 500 error?
 * 3:00 a.m : Check the apache server configuration files line by line. sites-available, /etc/apache2/, /var/www/html/.
-![](https://github.com/Emanuel-js/alx-system_engineering-devops/blob/main/0x19-postmortem/images/sites%20available.PNG?raw=true)
+![](https://github.com/Emanuel-js/alx-system_engineering-devops/blob/main/0x19-postmortem/images/sites%20available.png?raw=true)
 ![](https://github.com/Emanuel-js/alx-system_engineering-devops/blob/main/0x19-postmortem/images/document%20root.PNG?raw=true)
 - May 20
 * 8:00 a.m: Check the logs associated (error logs, access logs) 
